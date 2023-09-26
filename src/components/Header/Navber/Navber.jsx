@@ -3,10 +3,10 @@ import Logo from "./Logo";
 
 const Navber = () => {
     return (
-		<div className="p-7 mx-8 shadow-md">
-			<nav className="flex justify-between align-center">
+		<div className="p-7 shadow-md">
+			<nav className="md:flex justify-center md:justify-between align-center md:ml-0 ml-20">
 				<Logo></Logo>
-				<ul className="flex gap-8 mt-4">
+				<ul className="flex gap-8 mt-4 text-center">
 					<li>
 						<NavLink
 							to="/"

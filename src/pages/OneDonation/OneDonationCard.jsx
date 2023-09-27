@@ -21,16 +21,15 @@ const OneDonationCard = ({donation}) => {
 
 		if (!donationItems) {
 			addedDonationArray.push(donation)
-			localStorage.getItem(
+			localStorage.setItem(
 				"donations",
 				JSON.stringify(addedDonationArray))
 				swal("Thank You!", "You donated successfully!", "success");
 			} else{
 				const isExits = donationItems.find(donation => donation.id === parseInt(id));
-
 				if (!isExits) {
 					addedDonationArray.push(...donationItems, donation);
-					localStorage.getItem(
+					localStorage.setItem(
 						"donations",
 						JSON.stringify(addedDonationArray)
 					);
@@ -38,7 +37,6 @@ const OneDonationCard = ({donation}) => {
 				} else{
 					swal("Sorry", "You donated already!", "error");
 				}
-				
 			}
 	}
 

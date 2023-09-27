@@ -3,7 +3,9 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
     const [donation, setDoantion] = useState([]);
-    const [noFound, setNofound] = useState(false)
+    const [noFound, setNofound] = useState(false);
+    const [isShow, setIsShow] = useState(false);
+
     useEffect(() =>{
         const donationItems = JSON.parse(localStorage.getItem("donations"));
 
@@ -14,9 +16,6 @@ const Donation = () => {
         }
     },[])
 
-    const handleSeeAll = () =>{
-        
-    }
 
     return (
 		<div>
@@ -27,18 +26,29 @@ const Donation = () => {
 			) : (
 				<div>
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-5 my-5">
-						{donation.map((donation) => (
+						{
+                            isShow ? donation.map((donation) => (
 							<DonationCard
 								key={donation.id}
 								donation={donation}
 							></DonationCard>
-						))}
+						))
+                        :
+                        donation.slice(0,4).map((donation) => (
+							<DonationCard
+								key={donation.id}
+								donation={donation}
+							></DonationCard>
+						))
+                        }
 					</div>
-					{donation.length >= 4 && (
-						<button onClick={handleSeeAll} className="px-5 py-3 bg-green-400 block mx-auto">
-							See All
-						</button>
-					)}
+
+					<button
+						onClick={() => setIsShow(!isShow)}
+						className="px-5 py-3 bg-green-400 block mx-auto "
+					>
+						{isShow ? "See Less" : "See All"}
+					</button>
 				</div>
 			)}
 		</div>

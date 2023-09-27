@@ -51,7 +51,11 @@ const OneDonationCard = ({donation}) => {
 					/>
 					<div className="absolute  w-full left-0 bottom-0 font-semibold text-lg rounded-lg pt-5">
 						<div className="absolute inset-0 bg-gray-700 bg-opacity-50"></div>
-						<button onClick={handleAddToDonation} className="px-8 py-3 mb-5 ml-5 relative bg-red-500">
+						<button
+							onClick={handleAddToDonation}
+							className="px-8 py-3 mb-5 ml-5 relative"
+							style={{ backgroundColor: text_button_bg_color}}
+						>
 							Donate ${price}
 						</button>
 					</div>

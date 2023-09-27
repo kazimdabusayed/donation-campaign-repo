@@ -1,14 +1,14 @@
 
 const Banner = () => {
     return (
-		<div className="relative h-[80vh] bg-green-200 my-6">
+		<div className="relative h-[80vh] my-6">
 			<img
-				className="absolute w-full h-full object-cover" src="" alt=""
+				className="absolute w-full h-full object-cover" src="Clothing.png" alt=""
             />
-			<div className="absolute inset-0 bg-white bg-opacity-50"></div>
+			<div className="absolute inset-0 bg-white bg-opacity-90"></div>
 			<div className="relative flex justify-center items-center h-full">
 				<div>
-					<h1 className="text-xl md:text-4xl font-bold">
+					<h1 className="text-xl md:text-4xl font-bold mb-4">
 						I Grow By Helping People In Need
 					</h1>
 					<div className="flex justify-center items-center my-5">

@@ -3,8 +3,8 @@ import Logo from "./Logo";
 
 const Navber = () => {
     return (
-		<div className="p-7 shadow-md">
-			<nav className="md:flex justify-center md:justify-between align-center md:ml-0 ml-20">
+		<div className="p-6 shadow-md">
+			<nav className="flex gap-5 flex-col md:flex-row justify-between items-center">
 				<Logo></Logo>
 				<ul className="flex gap-8 mt-4 text-center">
 					<li>

@@ -8,7 +8,7 @@
         "card_bg_color": "#0052FF26",
         "text_button_bg_color": "#0052FF",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "price": 299.99
+        "price": 99
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "card_bg_color": "#FF444A26",
         "text_button_bg_color": "#FF444A",
         "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "price": 49.99
+        "price": 49
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "card_bg_color": "#79C23F26",
         "text_button_bg_color": "#79C23F",
         "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "price": 149.99
+        "price": 149
     },
     {
         "id": 4,
@@ -41,94 +41,94 @@
         "card_bg_color": "#F8714726",
         "text_button_bg_color": "#F87147",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "price": 79.99
+        "price": 79
     },
     {
         "id": 5,
-        "picture": "https://example.com/image5.jpg",
+        "picture": "https://i.ibb.co/yFYgQs1/food3.jpg",
         "title": "Product 5",
         "category": "Food",
         "category_bg_color": "#f39c12",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#3498db",
         "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "price": 199.99
+        "price": 199
     },
     {
         "id": 6,
-        "picture": "https://example.com/image6.jpg",
+        "picture": "https://i.ibb.co/S7bjHRR/valosobi.png",
         "title": "Product 6",
         "category": "Clothing",
         "category_bg_color": "#3498db",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#27ae60",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "price": 399.99
+        "price": 79
     },
     {
         "id": 7,
-        "picture": "https://example.com/image7.jpg",
+        "picture": "https://i.ibb.co/q05ggCB/edu2.jpg",
         "title": "Product 7",
         "category": "Education",
         "category_bg_color": "#e74c3c",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#9b59b6",
         "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "price": 59.99
+        "price": 59
     },
     {
         "id": 8,
-        "picture": "https://example.com/image8.jpg",
+        "picture": "https://i.ibb.co/N91KbDD/health2.jpg",
         "title": "Product 8",
         "category": "Health",
         "category_bg_color": "#f1c40f",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#e67e22",
         "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "price": 129.99
+        "price": 129
     },
     {
         "id": 9,
-        "picture": "https://example.com/image9.jpg",
+        "picture": "https://i.ibb.co/K7NfpmJ/health3.jpg",
         "title": "Product 9",
         "category": "Health",
         "category_bg_color": "#1abc9c",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#e74c3c",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "price": 69.99
+        "price": 69
     },
     {
         "id": 10,
-        "picture": "https://example.com/image10.jpg",
+        "picture": "https://i.ibb.co/b3DQm8v/edu3.jpg",
         "title": "Product 10",
         "category": "Education",
         "category_bg_color": "#f39c12",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#3498db",
         "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "price": 249.99
+        "price": 149
     },
     {
         "id": 11,
-        "picture": "https://example.com/image11.jpg",
+        "picture": "https://i.ibb.co/jDy7D7Z/clothing3.jpg",
         "title": "Product 11",
         "category": "Clothing",
         "category_bg_color": "#3498db",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#27ae60",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "price": 299.99
+        "price": 99
     },
     {
         "id": 12,
-        "picture": "https://example.com/image11.jpg",
+        "picture": "https://i.ibb.co/xgWpp9M/freeFood.png",
         "title": "Product 11",
         "category": "Food",
         "category_bg_color": "#3498db",
         "card_bg_color": "#ffffff",
         "text_button_bg_color": "#27ae60",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "price": 299.99
+        "price": 59
     }
 ]
